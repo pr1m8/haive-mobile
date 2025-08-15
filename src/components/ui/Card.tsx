@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, ViewStyle } from 'react-native';
 
 interface CardProps {
-  children: React.ReactNode;
+  children: any;
   style?: ViewStyle;
   padding?: number;
 }
